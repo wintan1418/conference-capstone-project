@@ -1,0 +1,71 @@
+*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting */
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 10vw;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+img {
+    width: 100px;
+  }
+  
+  .tickets-title {
+    font-size: 20px;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #ec5242;
+  }
+  
+  a:active {
+    color: #ec5242;
+  }
+  
