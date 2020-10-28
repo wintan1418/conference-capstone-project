@@ -72,3 +72,36 @@ img {
     background-color: #f7f7f7;
     border: 2px solid #fff;
   }  
+  .previous div:nth-child(1) {
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://fmeli.org/wp-content/uploads/2020/04/TRUE-HOLINESS-IN-PATH-OF-SALVATION.jpg");
+    background-size: cover;
+  }
+  
+  .previous div:nth-child(2) {
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://fmeli.org/wp-content/uploads/2020/04/GAINING-STATURE-TO-RESIST-THE-ADVERSARY.jpg");
+    background-size: cover;
+  }
+  .red {
+    color: #ec5242;
+  }
+  
+  .bg-red {
+    background-color: #ec5242;
+  }
+  
+  .bg-dark-light-custom {
+    background-color: rgba(143, 143, 143, 0.5);
+  }
+  
+  .bg-dark-custom {
+    background-color: #272a31;
+  }
+  .hr-title {
+    border: 1px solid #ec5242;
+    width: 10%;
+  }
+  
+  .hr-speakers {
+    border: 1px solid #3c3e43;
+    width: 10%;
+  }  
