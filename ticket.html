@@ -3,9 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
     <title>Document</title>
+    <link rel="icon"
+        href="https://img-a.udemycdn.com/course/240x135/3380132_0287_2.jpg?FyhZmUoQPie5OnRsiTnyOZsiC_sIEow_xOT0VH5Mm79l7I8ZOuTxapTAeMQbvhXfITlHKUVsAq4DpFELGnXU97g-ccpNYdMGSX6efVHZeZ2Az8cx3bjR9FwHzK1WqzIr" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
+    <header>
+        <!-- the navbar  -->
+        <div class="d-none d-md-block">
+            <nav class="navbar text-white bg-dark pt-0 pb-0 navbar-expand-sm">
+                <ul class="navbar-nav ml-auto m-2">
+                    <li class="nav-item">
+                        <a class="nav-links m-2" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-links m-2" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-links m-2" href="#"> logout </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-links m-2" href="#"> enter </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-links m-2" href="#"> home </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="navbar text-white bg-light-custom pt-0 pb-0 navbar-expand-sm">
+                <a class="navbar-zedi p-0 m-0" href="./home.html">
+                    <figure class="nav-logo m-0">
+                        <img class="img-fluid"
+                            src="./assets/images/3D color Design.png"
+                            alt="lazy-load" />
+                    </figure>
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="./home.html"> Home </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="./about.html"> About </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="./ticket.html"> Ticket </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="#"> commercials </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="#"> dashboard </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="#"> ministers </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-3 pr-3">
+                        <a class="nav-link" href="#"> register </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner container-fluid slider-about mb-0">
+            <div class="row">
+                <div class="nav-small pt-0 d-block d-md-none navbar-toggle" data-toggle="collapse"
+                    data-target="navbar-contentA">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-contentA">
+                    <ul class="mr-auto navbar-nav">
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="./home.html"> Home </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="./about.html"> About </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="./ticket.html"> Ticket </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="#"> login </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="#"> Dashboard </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="#"> Ministers </a>
+                        </li>
+                        <li class="nav-item pr-4 pl-4">
+                            <a class="nav-links" href="#"> catalogue </a>
+                        </li>
+                    </ul>
+                </div>
+                </header>
+
+
+         <main>
+            <div class="row pt-3 mb-5">
+                <div class="col-12">
+                  <h1 class="text-center section-title tickets-title">Select Tickets</h1>
+                </div>
+                <hr class="hr-title">
+              </div>
+              <div class="row">
+                <div class="col-12 steps">
+                  <p class="border rounded text-center font-weight-bold p-2">
+                    <span class="text-uppercase red"><i class="fas fa-circle"></i>STEP 1</span>
+                    Please select the day when you want to join HTML Bootcamp.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="table-responsive col-12 bg-table pr-2 pl-2 mt-3">
+                  <table class="tickets-table table-bordered pr-0 pl-0 table col-12 mt-2 mb-2">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Ticket</th>
+                        <th>1-Day-Ticket</th>
+                        <th colspan="2">2-Day-Ticket</th>
+                        <th>CC Affiliate/Partners</th>
+                      </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                      <tr>
+                        <td>Date</td>
+                        <td>15. Oct</td>
+                        <td>15. Oct</td>
+                        <td>15. Oct</td>
+                        <td>15. Oct</td>
+                      </tr>
+                      <tr>
+                        <td>Normal</td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Students</td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                        <td class="text-center">
+                          <span class="font-weight-bold red">
+                            <del>W</del>70,000
+                          </span><br>
+                          <input type="radio" name="ticket" value="ticket">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+      
+              </div>
+
+         </main> 
+         
+         
     
+    <footer class="container-fluid p-4 bg-dark-custom">
+        <div class="row">
+            <div class="col-6">
+                <figure>
+                    <img src="./assets/images/3D color Design.png" alt="logo">
+                </figure>
+            </div>
+            <div class="col-6">
+                <p class="footer-p text-white">
+                    2020 this is a divine body <br>
+                    welcome to Ondo city
+
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 </html>
