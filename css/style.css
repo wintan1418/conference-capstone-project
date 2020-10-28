@@ -68,4 +68,7 @@ img {
   a:active {
     color: #ec5242;
   }
-  
+  .concert-description {
+    background-color: #f7f7f7;
+    border: 2px solid #fff;
+  }  
