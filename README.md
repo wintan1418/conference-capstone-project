@@ -4,7 +4,7 @@
 
 > This is a capstone project on a music concert which was coined out from the given design outline of a conference page.
 
-![screenshot](assets/images/screenshot.png)
+![screenshot](assets/images/ new screenshot.png)
 
 
 ## Built With
