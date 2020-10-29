@@ -283,22 +283,4 @@ a:active {
     margin: 2px;
   }
 }
-td {
-  display: block;
-  width: 50%;
-  text-align: center;
-}
 
-td[colspan] {
-  width: 100%;
-}
-
-th {
-  width: 100%;
-}
-@media screen and (max-width: 320px) {
-  tr {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
