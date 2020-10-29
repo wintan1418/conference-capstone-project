@@ -4,6 +4,15 @@
 
 > This is a capstone project on a music concert which was coined out from the given design outline of a conference page.
 
+I took a painstaking process to archieve the given requirement of this project.
+
+   Used the prescribed colours, layouts and design guidelines given by microverse(client).
+	  Asides from bootstrap I used flexbox and media queries.
+	  Used semantic HTML throughout the html codes.
+
+
+
+
 ![screenshot](assets/images/new-screenshot.png)
 
 
