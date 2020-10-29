@@ -4,11 +4,7 @@
 
 > This is a capstone project on a music concert which was coined out from the given design outline of a conference page.
 
-<<<<<<< HEAD
-![screenshot](assets/images/ new screenshot.png)
-=======
-![screenshot](assets/images/new screenshot.png)
->>>>>>> 798300a684b6d5a415989c6fe008f904d8a747e5
+![screenshot](assets/images/new-screenshot.png)
 
 
 ## Built With
