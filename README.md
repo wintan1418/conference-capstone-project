@@ -1,9 +1,8 @@
-# newsweek-project
+# conference-capstone-project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Newsweek Clone
 
-> This project is responsive clone of the The News week website,carefully built with meticulous skill of bootstrap and very few css codes.
+> This is a capstone project on a music concert which was coined out from the given design outline of a conference page.
 
 ![screenshot](images/latest-screenshot.png)
 
