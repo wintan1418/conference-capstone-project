@@ -26,8 +26,9 @@ I took a painstaking process to archieve the given requirement of this project.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/wintan1418/conference-capstone-project/feature-branch/home.html)
+[Live Demo Link](https://raw.githack.com/wintan1418/conference-capstone-project/feature-branch/home.html).
 
+(video-presentation):https://www.loom.com/share/13ae42683b5749a6802a15d90904bd14
 ## Authors
 
 👤 **Oluwadare Juwon**
