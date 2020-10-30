@@ -33,7 +33,7 @@ I took a painstaking process to archieve the given requirement of this project.
 [Live Demo Link](https://raw.githack.com/wintan1418/conference-capstone-project/feature-branch/home.html).
 
 (video-presentation):https://www.loom.com/share/13ae42683b5749a6802a15d90904bd14
-## Authors
+## Author
 
 👤 **Oluwadare Juwon**
 
@@ -42,7 +42,10 @@ I took a painstaking process to archieve the given requirement of this project.
 - LinkedIn: [Oluwadare Juwon](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
 
 ACKNOWLEDGEMENT
-
+-i acknowledge the odin project materials.
+-thanks to former partners,silas kalu and stand up team member david.
+-thanks to the entire microverse team.
+-
 
 
 
