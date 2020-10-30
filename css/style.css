@@ -32,6 +32,7 @@ p {
 
 body {
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -66,6 +67,10 @@ a {
 
 a:hover {
   color: #ec5242;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 a:active {
@@ -134,16 +139,16 @@ a:active {
   background-size: cover;
 }
 
-.concert-outline {
+.main-concert-outline {
   background-image: linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1tYbzfveSc_fXrnCLuNeoZ032ee8Pl0enhA&usqp=CAU");
   background-size: cover;
 }
 
-.concert-outline i {
+.main-concert-outline i {
   font-size: 3rem;
 }
 
-.concert-outline:hover {
+.concert-outline-parent:hover {
   border: 2px solid #fff;
 }
 
@@ -271,22 +276,21 @@ a:active {
     margin: auto;
   }
 
-  .logo-description figure {
+  .nav-logo-description figure {
     width: 50%;
     margin: auto;
   }
 
-  .program .section-subtitle {
+  .concert-outline.section-subtitle {
     font-size: 1.2rem;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  .program i {
+  .concert-outline i {
     font-size: 1.5rem;
   }
-
-  .program-block-parent {
+ .concert-outline-block.parent {
     margin: 2px;
   }
 }
