@@ -291,6 +291,7 @@ a:active {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
   .footer-logo {
     width: 50%;
     margin: auto;
@@ -299,8 +300,8 @@ a:active {
   .concert-outline i {
     font-size: 1.5rem;
   }
-  
- .concert-outline-block.parent {
+
+  .concert-outline-block.parent {
     margin: 2px;
   }
 }
