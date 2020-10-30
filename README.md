@@ -6,10 +6,13 @@
 
 I took a painstaking process to archieve the given requirement of this project.
 
-   Used the prescribed colours, layouts and design guidelines given by microverse(client).
-	  Asides from bootstrap I used flexbox and media queries.
-	  Used semantic HTML throughout the html codes.
-
+  -creat a repository
+  -clone it to my work station
+  -add all the needed files, and folders and checked out of the main branch to a feature branch
+  -add my bootstrap links and other external links for icon features
+  -use semantic html
+  -build my website with bootstrap and used media queries and css stylings
+  -make regular commits and pushes to github
 
 
 
@@ -22,6 +25,7 @@ I took a painstaking process to archieve the given requirement of this project.
 - bootstrap
 - CSS
 - Font Awesome
+- google-fonts
 
 
 ## Live Demo
@@ -37,6 +41,9 @@ I took a painstaking process to archieve the given requirement of this project.
 - Twitter: [@juwonoluwadare](https://twitter.com/oluwadarejuwon)
 - LinkedIn: [Oluwadare Juwon](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
 
+ACKNOWLEDGEMENT
+
+
 
 
 ## �� Contributing
@@ -44,4 +51,4 @@ You can freely contribute to this project by:
  cloning this repo directly to your work station and raising issues,both positive and notify me if you feel it could be more improved,thank you!.
 ## Show your support
 Give a ⭐️ if you like this project!
-# conference-capstone-project
+
