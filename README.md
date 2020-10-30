@@ -25,7 +25,7 @@ I took a painstaking process to archieve the given requirement of this project.
 - bootstrap
 - CSS
 - Font Awesome
-- google-fonts
+- google-fonts.
 
 
 ## Live Demo
