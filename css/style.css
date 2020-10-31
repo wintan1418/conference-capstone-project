@@ -226,6 +226,8 @@ a:active {
     display: block;
     width: 50%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   td[colspan] {
